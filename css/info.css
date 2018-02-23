@@ -1,0 +1,182 @@
+body{
+	background-image:url(../images/obnoi.jpg);	
+	color:black;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+overflow:hidden;
+background-size:100%;
+padding:6;
+font:arial, tahoma, sans-serif;
+}
+/*Меню*/
+div.header{
+    color: #fff; 
+	padding: 10px;
+	padding-top:10px;
+}
+div.mid{
+	width:60%;
+   margin:0 auto;	
+}
+div.topmenu{
+	position:relative;
+margin:20px auto;
+font-size:22px;
+	height:80px;
+	text-align:center;
+	width:500px; 
+    
+	line-height:80px;
+}
+div.topmenu a{
+	text-decoration:none;
+	margin: 0 0 0 10px;
+	color:white;
+}
+div.topmenu a:hover{
+	font-size:25px;
+
+color:#fff;		
+}
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  position: relative;
+  display: block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: #aaa;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+}
+ul li a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background: #2196f3;
+  transition: 0.5s;
+}
+ul li a:hover {
+  color: #fff;
+}
+ul li a:hover::before {
+  animation: animate .5s linear forwards; 
+}
+
+@keyframes animate {
+  0% {
+    top: calc(50% - 2px);
+    left: -100%;
+    height: 4px;
+    z-index: 1;
+  }
+  50% {
+    top: calc(50% - 2px);
+    left: 0;
+    height: 4px;
+    z-index: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
+}
+
+/*Основы*/
+#info{
+	
+	font-size:40px;
+font-family:arial;
+text-indent:20px;
+border: 3px solid #05B7F2;	
+background-color:#E63410;
+color:white;
+margin: 10px auto;
+margin-bottom:10%;
+padding:10px;
+font-weight:600;
+box-shadow: 3px 3px 10px #2CD13F;
+}
+#info:hover{
+	transition:3s all;
+	margin:20px auto;
+	border: 5px solid red;	
+}
+#drou{
+	margin: 30px auto;
+	font-size:30px;
+font-family:arial;
+text-indent:15px;
+	border: 2px solid #1EF73E;	
+	color:black;
+margin-bottom:45px;
+
+padding-top:25px;
+
+background-color:white;
+box-shadow: 3px 3px 10px #1E3BF7;
+}
+#drou:hover{
+	transition:2s all;
+	margin:20px auto;
+	
+	border: 3px solid #B62CD1;
+}
+/*Текст*/
+.text{
+	padding-bottom:30px;
+	
+}
+
+/*Подвал*/
+div.clear{
+	clear:both;
+	margin-bottom:100px;
+}
+
+/*Адаптивный дизайн*/
+@media(max-width:1000px){
+    div.mid{width: 95%; margin: 0 auto}
+	div.afisha h3{font-size:22px;}
+	div.block{width:48%;}
+	div.anons img,div.rek img{width:100%;}
+	div.anons h3{font-size:18px;}
+	div.anonsi img{width:100%;}
+	div.anonsi h3{font-size:18px;}
+	
+}
+@media(max-width: 640px){
+	div.header{text-align:center; background-position:center -130px;}
+div.block,div.block:nth-of-type(even),div.afisha img,div.topmenu{float:none;}
+div.block{width:auto; margin-bottom:40px;}
+div.block:nth-last-of-type(2){width:auto; margin-bottom:0px;}
+div.footer span{margin:10px 0; display:block;}
+}
+@media (max-width: 930px) { 
+  .content-wrapper {padding: 0;} 
+}
+@media (max-width: 930px) and (min-width: 470px) {  
+  aside {position: static; width: 100%; background: #ccc;} 
+}
+@media (max-width: 469px) { 
+  body {font: .9em/1em "Helvetica Neue",Arial,Helvetica,sans-serif;} 
+  aside {display: none;} 
+}

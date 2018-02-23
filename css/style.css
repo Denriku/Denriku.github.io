@@ -1,0 +1,567 @@
+body{
+background: linear-gradient(to top left, black, crimson, black, black);
+background-attachment: scroll;
+background-position:top 50%;
+background-size:cover;
+margin:0;
+padding:0;
+font:16px/25px arial, tahoma, sans-serif;
+width:100%;	
+}
+#hellopreloader p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #59ABE3 url(http://hello-site.ru//main/images/preloads/audio.svg) center center no-repeat;background-size:41px;}
+input,textarea{
+	outline:none;
+	border:none;
+	border: solid 1px #f2f2f2;
+}
+input[type="text"],input[type="password"],input[type="search"]{
+	 color:#5d5d5d;
+	 width:60%;
+	 padding:8px;
+}
+h1,h2{
+	font:normal 170% 'century gothic',arial;
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+	color#000;
+}
+h2{
+	font-size: 140%;
+}
+.sad:hover{
+	outline:none;
+	text-decoration:underline;
+	color:#2FBA4A;
+}
+a:hover{
+	transition: all 0.5s;
+}
+a{
+text-decoration:none;	
+	
+}
+ul{
+	margin: 2px 0 22px 17px;
+	
+}
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height:1.5em;
+	
+}
+
+/*Структура сайта*/
+div.header{
+	background:radial-gradient(#fff,#D98C21,);
+	 background-image: linear-gradient(to top, rgba(30,87,153,0), rgba(30,87,153,0.8), rgba(30,87,153,1),
+                      rgba(30,87,153,1), rgba(41,137,216,1), rgba(30,87,153,1), rgba(30,87,153,1),
+                      rgba(30,87,153,0.8),rgba(30,87,153,0));
+    color: #fff; padding: 10px;
+	background-size: 500px 500px;
+	padding-top:%;
+
+}
+div.mid{
+	width:1000px;
+   margin:0 auto;	
+}
+div.footer{
+	margin:20px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+/*Шапка сайта*/
+
+div.afisha{
+	padding:1px 50px 1px 45px;
+	margin-top:50;
+	
+}
+div.afisha img{
+float:left;		
+}
+div.afisha h3{
+font-size:25px; 
+font-weight:normal; 
+text-align:center;	
+color:#E6B217;
+text-shadow:2px 0 3px;
+}
+div.afisha p{
+	margin-top:30px;
+	text-align:center;
+}
+div.afisha a{
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+	background:#C2104E;
+	border: 1px solid #D52ADB;
+	padding: 5px 15px;
+	border-radius:3px;
+	box-shadow: 2px 2 px 7px -1px #777;
+	text-shadow:0px 0 px 3px #777;
+}
+div.afisha a:hover{
+	background:#2A4ADB;
+	border: 1px solid #554A75;
+	text-shadow:0px 0 px 3px #524E5E;
+}
+/*Главное меню*/
+div.menu{
+	
+     background-size:cover;
+	background-attachment: scroll;
+	background-image:url(../images/Backgrounds_On_blue_background_wallpaper_082199_.jpg);
+	background-repeat:no-repeat;
+	border: 1px solid #78BD55;
+	border-left:none;
+	border-right:none;
+}
+div.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center;
+}
+div.menu ul li{
+	display:inline-block;
+	margin: 5px 30px;
+}
+div.menu ul li a{
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow: 1px 1px 3px #2B3824;
+}
+div.menu ul li a:hover{
+	color:#50DED4;
+	
+}
+/*Контент сайта*/
+div.block{
+width:440px;
+float:left;		
+margin-bottom:40px;
+}
+div.block:nth-of-type(even){
+width:440px;
+float:right;		
+}
+div.anons{
+	background-color:#fff;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius:3px;
+	
+}
+div.fon{
+	padding: 40px;
+	border-radius:3px;	
+}
+div.fon div.clear{
+	border-bottom: 1px dashed #ccc;
+}
+div.anons img{
+	box-shadow: 5px 5px 10px #777;
+}
+div.anons h3{
+	font-size: 20px;
+	text-align:center;
+	margin:20 px 0 10px;
+	padding:0;
+	font-weight:normal;
+	color:#4419E0;
+	line-height:20px;
+}
+div.anons p{
+	text-shadow:1px 1px 0 #fff;
+}
+div.block a p{
+	color:#272727;
+}
+div.anons:hover{
+	transform:scale(1)rotate(2deg);
+	transition:transform 0.5s;
+	background: #CFC2A1;
+	border: 1px solid #bfd5dd;
+	transition: all 2s;
+}
+
+div.rek img{
+	border: 1px solid #ccc;
+	
+}
+div.anonsi{
+	background-color:#fff;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius:3px;
+	width:800px;
+	
+	border: 3px dashed tan;
+}
+div.anonsi img{
+	box-shadow: 5px 5px 10px #777;
+}
+div.anonsi h3{
+	font-size: 20px;
+	text-align:center;
+	margin:20 px 0 10px;
+	padding:0;
+	font-weight:normal;
+	color:#E3244E;
+	line-height:20px;
+}
+div.anonsi p{
+	text-shadow:1px 1px 0 #fff;
+}
+div.anonsi:hover{
+	transform:scale(1.0);
+	background: #D1CA7B;
+	border: 5px solid #bfd5dd;
+	transition: all 2s;
+}
+/*Пароль и логин*/
+div.rek{
+	width:100%;
+	position:absolute;
+	margin:0 auto;
+	color:#E009AE;
+	font-size:30px; 
+font-weight:normal; 
+text-align:center;	
+border: 2px solid #D52ADB;
+	padding: 10px 15px;
+	border-radius:3px;
+	box-shadow: 2px 2px 7px  #777;
+	text-shadow:0px 0 px 3px #777;
+	background-color:white;
+}
+div.prog{
+	margin:2%;
+	word-spacing: 0.5em;
+	
+}
+div.prog:hover{
+	background-color:black;
+	border: 2px solid #E00909;
+	color:white;
+	text-align: center;
+	border-top: 0.2in solid black;
+	transition: all 2s;
+	
+	
+}
+div.site_content{
+	vertical-align:top;
+	padding:0;
+	overflow:hidden;
+    margin: -400px;  
+	float:right;
+}
+div.sitbar_container{
+	float:right;
+	max-width:40%;	
+}
+div.sidebar{
+	float:right;
+	width: 324px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 1px #f2f2f2;
+	border-radius: 5px;
+	background-color:white;
+	
+}
+div.sidebari{
+	position:relative;
+	float:right;
+	width: 325px;
+	
+    margin: 40px auto 0 auto; 
+	background-color:#ED871A;
+	text-indent: 30.5px ;
+	
+}
+.rozmer_1{
+	font-family:arial,sans-serif;
+	font-size:18px;
+	padding-top:15px;
+	margin-top:-10px;
+}
+div.sidebar:hover{
+	background-color:#EDD0A6;
+	border: solid 1px #EDD0A6;
+	transition: all 0.5s;
+}
+div.btn{
+	padding:8px;
+	background-color:white;
+	cursor:pointer;
+}
+.sidebar h2{
+	color:#136cd2;
+}
+.labels_passreg_text{
+	font-size:0.7em;
+	margin-top: 3%;
+	margin-left:2%;
+}
+.rozmer{
+	font-size:110%;
+	font:normal 120% 'century gothic',arial;
+	padding-bottom:30px;
+	
+}
+.rozmer:hover{
+	background:#2A4ADB;
+	border: 1px solid #554A75;
+	text-shadow:0px 0 px 3px #524E5E;
+	color:white;
+	transition: all 1s;
+}
+.ridi{
+	font-size:1em;
+	margin-top: 3%;
+	margin-left:2%;
+	color: #1A6DD9;
+	
+}
+.ridi:hover{
+	outline:none;
+	text-decoration:underline;
+	color:#2FBA4A;
+	text-decoration:blink;
+	font:normal 120% 'century gothic',arial;
+}
+.sidebari ul{
+	margin:0;
+	color:red;
+}
+.sidebari ul li{
+	list-style-type: none;
+	margin: 0 0 0;
+
+}
+.rating_sidebar{
+	float:right;
+	width:50px;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 3.75rem;
+  background-color: #1f2822;
+  -webkit-transition: 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  will-change: width;
+  z-index: 99;
+}
+.nav.is-active {
+  width: 100%;
+}
+
+.nav__trigger {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  margin-top: -10px;
+  padding: 8px 0;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  z-index: 10;
+}
+.nav__trigger .bars {
+  position: relative;
+}
+.nav__trigger .bars, .nav__trigger .bars:before, .nav__trigger .bars:after {
+  width: 28px;
+  height: 4px;
+  background-color: #9ac6ac;
+  border-radius: 4px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.nav__trigger .bars:before, .nav__trigger .bars:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+}
+.nav__trigger .bars:before {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+.nav__trigger .bars:after {
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+.nav__trigger.is-active {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.nav__trigger.is-active .bars:before, .nav__trigger.is-active .bars:after {
+  -webkit-transform: translateX(0) rotate(-90deg);
+          transform: translateX(0) rotate(-90deg);
+}
+
+.nav__content {
+
+  position: absolute;
+  top: 50%;
+ 
+  left: 50%;
+  width: 100%;
+  max-width: 1300px;
+  padding: 1rem 3.75rem 1rem 2.75rem;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0s linear 0.25s;
+  transition: 0s linear 0.25s;
+}
+.nav__content.is-active {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: 0s linear;
+  transition: 0s linear;
+}
+.nav__content.is-active .nav__item a {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-property: opacity, color, -webkit-transform;
+  transition-property: opacity, color, -webkit-transform;
+  transition-property: transform, opacity, color;
+  transition-property: transform, opacity, color, -webkit-transform;
+  -webkit-transition-duration: 0.55s, 0.55s, 0.3s;
+          transition-duration: 0.55s, 0.55s, 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1), ease-in-out, ease-in-out;
+          transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1), ease-in-out, ease-in-out;
+}
+.nav__content.is-active .nav__list .nav__item:nth-of-type(1) a {
+  -webkit-transition-delay: 0s, 0s, 0s;
+          transition-delay: 0s, 0s, 0s;
+}
+.nav__content.is-active .nav__list .nav__item:nth-of-type(2) a {
+  -webkit-transition-delay: 0.05s, 0.05s, 0s;
+          transition-delay: 0.05s, 0.05s, 0s;
+}
+.nav__content.is-active .nav__list .nav__item:nth-of-type(3) a {
+  -webkit-transition-delay: 0.1s, 0.1s, 0s;
+          transition-delay: 0.1s, 0.1s, 0s;
+}
+.nav__content.is-active .nav__list .nav__item:nth-of-type(4) a {
+  -webkit-transition-delay: 0.15s, 0.15s, 0s;
+          transition-delay: 0.15s, 0.15s, 0s;
+}
+.nav__content.is-active .nav__list .nav__item:nth-of-type(5) a {
+  -webkit-transition-delay: 0.2s, 0.2s, 0s;
+          transition-delay: 0.2s, 0.2s, 0s;
+}
+.nav__content.is-active .nav__list .nav__item:nth-of-type(6) a {
+  -webkit-transition-delay: 0.25s, 0.25s, 0s;
+          transition-delay: 0.25s, 0.25s, 0s;
+}
+.nav__content.is-active .nav__list .nav__item:nth-of-type(7) a {
+  -webkit-transition-delay: 0.3s, 0.3s, 0s;
+          transition-delay: 0.3s, 0.3s, 0s;
+}
+.nav__content.is-active .nav__list .nav__item:nth-of-type(8) a {
+  -webkit-transition-delay: 0.35s, 0.35s, 0s;
+          transition-delay: 0.35s, 0.35s, 0s;
+}
+.nav__content.is-active .nav__list .nav__item:nth-of-type(9) a {
+  -webkit-transition-delay: 0.4s, 0.4s, 0s;
+          transition-delay: 0.4s, 0.4s, 0s;
+}
+
+.nav__list ul {
+
+  list-style: none;
+  margin:0;
+
+  padding: 0;
+}
+
+.nav__item {
+  overflow: hidden;
+}
+.nav__item a {
+	
+  display: inline-block;
+  padding: 2.5rem;
+  color: #9ac6ac;
+  text-decoration: none;
+  font-size: 3rem;
+  font-size: 10vw;
+  font-size: 14vmin;
+  font-weight: 300px;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  will-change: transform, opacity;
+}
+.nav__item a:hover {
+  color: white;
+}
+
+.nav__divider {
+  margin: 1.75rem 0 1.5rem;
+  width: 100%;
+  height: 2px;
+  background-color: #9ac6ac;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+
+
+/*Подвал*/
+div.footer span{
+	margin:0 20px;
+}
+div.clear{
+	clear:both;
+}
+/*Адаптивный дизайн*/
+@media(max-width:1000px){
+    div.mid{width: 95%; margin: 0 auto}
+	div.afisha h3{font-size:22px;}
+	div.block{width:48%;}
+	div.anons img,div.rek img{width:100%;}
+	div.anons h3{font-size:18px;}
+	div.anonsi img{width:100%;}
+	div.anonsi h3{font-size:18px;}
+	
+}?
+@media(max-width: 640px){
+	div.header{text-align:center; background-position:center -130px;}
+div.block,div.block:nth-of-type(even),div.afisha img,div.topmenu{float:none;}
+div.block{width:auto; margin-bottom:40px;}
+div.block:nth-last-of-type(2){width:auto; margin-bottom:0px;}
+div.footer span{margin:10px 0; display:block;}
+}
+@media (max-width: 930px) { 
+  .content-wrapper {padding: 0;} 
+}
+@media (max-width: 930px) and (min-width: 470px) {  
+  aside {position: static; width: 100%; background: #ccc;} 
+}
+@media (max-width: 469px) { 
+  body {font: .9em/1em "Helvetica Neue",Arial,Helvetica,sans-serif;} 
+  aside {display: none;} 
+}

@@ -1,0 +1,223 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image:url(../images/4343.jpg);	
+	color:black;
+	background-size:100%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	
+}
+.wrapper {
+	width: 500px;
+	margin: 0 auto;
+	
+	height: 100%;
+}
+.content h3{
+	font-size:20px;
+}
+aside_1{
+	font-size:15px;
+	padding:50px 10px 0 0 ;
+	height:280px;
+	margin:20px 0 100px 100px;
+	margin-top:-150px;
+	text-indent:10px;
+    background: #56C6CC; 
+	margin-left:-400px;
+    border: 1px solid black;
+	display:block;
+    width:400px;
+}
+/*Текст*/
+.content p{
+	color:black;
+	font-size:17px;
+	text-align:left;
+	padding-left:10px;
+	margin:30px;
+}
+/*Картинка*/
+.content img{
+	margin-top:35px;
+	width:50%;
+	height: auto;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	border: 1px solid black;
+	text-indent:10px;
+	padding-top:10%;
+	margin: 10px auto;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+    width:910px;
+	height:150px;
+	margin-left:-40%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fceabb+0,fccd4d+50,f8b500+51,fbdf93+100;Orange+3D+%235 */
+background: rgb(252,234,187); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(252,234,187) 0%, rgb(252,205,77) 50%, rgb(248,181,0) 51%, rgb(251,223,147) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(252,234,187) 0%,rgb(252,205,77) 50%,rgb(248,181,0) 51%,rgb(251,223,147) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(252,234,187) 0%,rgb(252,205,77) 50%,rgb(248,181,0) 51%,rgb(251,223,147) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 910px;
+	height:320px;
+	border: 1px solid black;
+	background-color:#fff;
+	padding: 0px 0 200px;
+	position: relative;
+    margin-left:-200px;
+	margin-top:10%;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+.content {
+	color:red;
+	font-weight:bold;
+	font-size:16px;
+	font-family:arial,sans-serif;
+	width: 100%;
+	text-align:center;
+	margin-top:10px;
+}
+/*Меню*/
+nav {
+	
+	margin-top:-230px;
+}
+nav ul {
+	font-size:15px;
+    list-style: none;
+    margin:140px auto;
+
+    text-align: center;
+}
+nav li {
+	
+    display: inline-block;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+nav a {
+    display: block;
+    color: #285064;
+    transition: all 0.3s;
+}
+nav a:hover {
+    color: #12242d;
+}
+nav span {
+    display: block;
+}
+ 
+@media all and (min-width: 690px) {
+    nav li {
+        margin: 0;
+        transform: skewX(-10deg);
+    }
+    nav a {
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #285064;
+    }
+    nav a:hover {
+        color: #fff;
+        background-color: #12242d;
+    }
+    nav span {
+        transform: skewX(10deg);
+    }
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feccb1+0,fb955e+22 */
+background: #feccb1; /* Old browsers */
+background: -moz-linear-gradient(-45deg, hsla(21,98%,85%,1) 0%, hsla(21,95%,68%,1) 22%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, hsla(21,98%,85%,1) 0%,hsla(21,95%,68%,1) 22%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, hsla(21,98%,85%,1) 0%,hsla(21,95%,68%,1) 22%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	text-align:center;
+	width:100%;
+	padding-top:40px;
+	font-size:20px;
+	margin: 100px auto 0;
+	height: 50px;
+
+	position: relative;
+}
+.clear span{
+margin:0;
+}
+div.clear{
+	clear:both;
+}

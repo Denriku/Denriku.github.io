@@ -1,0 +1,295 @@
+body{
+	background-image:url(../images/obou.jpg);
+	color:black;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	background-position:top center;
+margin:0;
+padding:0;
+font:arial, tahoma, sans-serif;
+
+}
+/*Меню*/
+div.header{
+    color: #fff; padding: 10px;
+	
+}
+div.mid{
+	width:1000px;
+   margin:0 auto;	
+}
+div.topmenu{
+	float:none;
+	font-size:20px;
+	margin:20px auto;
+	height:80px;
+	text-align:center;
+	width: 50%; 
+    background: #3B6965;
+		box-shadow: 0 0 2px 2px #ff4f00;
+    border: solid 1px black; 
+	line-height:80px;
+}
+div.topmenu a{
+	
+	margin: 0 0 0 10px;
+	color:#E36E1B;
+}
+div.topmenu a:hover{
+	font-size:25px;
+color:#fff;		
+}
+/*Группы*/
+ul{
+	margin: 2px 0 22px 17px;
+	
+	
+}
+ul li {
+	
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height:1.5em;
+	margin-top:15px;
+    height:20px;
+	
+}
+a{
+text-decoration:none;	
+	color:gold;
+	width:100%;
+
+}
+a:hover{
+	color:white;
+}
+#drou{
+	color:#F78B0F;
+	font-size: 23px;
+	text-align:left;
+	margin-top:5px;
+	margin:20 px 0 10px;
+	padding:0;
+	font-weight:normal;
+	text-indent:10px;
+	
+	
+}
+#drou:hover{
+	color:white;
+	font-size:25px;
+}
+.groopa_d{
+	margin-left:-50px;
+	 width: 500px; 
+	margin-bottom:230px;
+	margin-top:100px;
+    background: #9205F0;
+	box-shadow: 0 0 2px 2px #ff4f00;
+    border: solid 1px black; 
+    float: none;
+}
+.groopa_c{
+	
+	margin-left:-50px;
+	margin-bottom:70px;
+	margin-top:100px;
+	 width: 500px; 
+    background: #3B6965;
+		box-shadow: 0 0 2px 2px #ff4f00;
+    border: solid 1px black; 
+    float: none;
+}
+.groopa_b{
+	margin-left:-50px;
+	margin-bottom:80px;
+	 margin-top:90px;
+	 width: 500px; 
+    background: #0C5BC9;
+		box-shadow: 0 0 2px 2px #6693D4;
+    border: solid 1px black; 
+    float: none;
+}
+.groopa_a{
+	margin-left:-50px;
+	margin-bottom:-40px;
+	 width: 500px; 
+	margin-top:80px;
+    background: #7C28BD;
+		box-shadow: 0 0 2px 2px #6693D4;
+    border: solid 1px black; 
+    float: none;
+}
+/*Матчи*/
+#mats_a{
+	margin-left:60%;
+	text-align:center;
+	margin-top:-210px;
+     margin:20 px 0 10px;
+	padding:0;
+	opacity:0.6;
+	 width: 600px; 
+	  background: #7C28BD;
+		box-shadow: 0 0 2px 2px #6693D4;
+    border: solid 2px black; 
+  
+}
+#mats_b{
+	margin-left:60%;
+	text-align:center;
+	margin-top:-290px;
+     margin:20 px 0 10px;
+	padding:0;
+	opacity:0.6;
+	 width: 600px; 
+	  background: #7C28BD;
+		box-shadow: 0 0 2px 2px #6693D4;
+    border: solid 2px black; 
+  
+}
+#mats_c{
+	margin-left:60%;
+	text-align:center;
+	margin-top:-280px;
+     margin:20 px 0 10px;
+	padding:0;
+	opacity:0.6;
+	 width: 600px; 
+	  background: #7C28BD;
+		box-shadow: 0 0 2px 2px #6693D4;
+    border: solid 2px black; 
+  
+}
+#mats_d{
+	margin-left:60%;
+	text-align:center;
+	margin-top:-430px;
+     margin:20 px 0 10px;
+	padding:0;
+	opacity:0.6;
+	 width: 600px; 
+	  background: #7C28BD;
+		box-shadow: 0 0 2px 2px #6693D4;
+    border: solid 2px black; 
+  
+}
+
+/*Текст*/
+#cempion{
+	text-align:center;
+	font-family:arial,sans-serif;
+	font-size:50px;
+	color:black ;
+	background-color:#CFB086;
+   border-radius: 10px;
+	box-shadow: 0 0 7px 3px #ff4f00;
+	text-indent: 30px;
+	padding: 10px 20px 10px 20px;
+	margin: 20px auto;
+	width: 600px;	
+}
+#cempion:hover{
+	color:red;
+	background-color:black;
+	padding:1ex;
+	box-shadow:0 0 7px 3px green;
+	transition: all 0.5s;
+}
+P{
+	font-family:arial,sans-serif;
+	font-size:30px;
+	color:yellow ;
+	text-indent:10px;
+}
+h1{
+	text-indent: 13px;
+	text-align:center;
+	color:#F78B0F;
+	 border-radius: 10px;
+	box-shadow:#F70FC9;
+      border: 4px groove #ff4f00;
+      padding: 10px 20px 10px 20px;
+      margin: 20px auto;
+      width: 500px;
+	  background-color:white;
+}
+.mats{
+	font-family:arial,sans-serif;
+	font-size:22px;
+	color:white ;
+	text-indent:-22px;
+	text-align:center;
+	text-indent:30px;
+}
+.mats_1{
+	font-family:arial,sans-serif;
+	font-size:22px;
+	text-align:center;
+	color:white ;
+	width:-10px;
+	text-indent:11px;
+	
+}
+#mats_a:hover{
+	background-color:#3B2AD1;
+	color:white;
+	opacity:1;
+	text-align: center;
+	transition: all 2s;
+}
+#mats_b:hover{
+	background-color:#3B2AD1;
+	color:white;
+	opacity:1;
+	text-align: center;
+	transition: all 2s;
+}
+#mats_c:hover{
+	background-color:#3B2AD1;
+	color:white;
+	opacity:1;
+	text-align: center;
+	transition: all 2s;
+}
+#mats_d:hover{
+	background-color:#3B2AD1;
+	color:white;
+	opacity:1;
+	text-align: center;
+	transition: all 2s;
+}
+
+/*Подвал*/
+div.clear{
+	clear:both;
+	margin-bottom:100px;
+}
+/*Адаптивный дизайн*/
+@media(max-width:1000px){
+    div.mid{width: 95%; margin: 0 auto}
+	div.afisha h3{font-size:22px;}
+	div.block{width:48%;}
+	div.anons img,div.rek img{width:100%;}
+	div.anons h3{font-size:18px;}
+	div.anonsi img{width:100%;}
+	div.anonsi h3{font-size:18px;}
+	
+}
+@media(max-width: 640px){
+	div.header{text-align:center; background-position:center -130px;}
+div.block,div.block:nth-of-type(even),div.afisha img,div.topmenu{float:none;}
+div.block{width:auto; margin-bottom:40px;}
+div.block:nth-last-of-type(2){width:auto; margin-bottom:0px;}
+div.footer span{margin:10px 0; display:block;}
+}
+@media (max-width: 930px) { 
+  .content-wrapper {padding: 0;} 
+}
+@media (max-width: 930px) and (min-width: 470px) {  
+  aside {position: static; width: 100%; background: #ccc;} 
+}
+@media (max-width: 469px) { 
+  body {font: .9em/1em "Helvetica Neue",Arial,Helvetica,sans-serif;} 
+  aside {display: none;} 
+}

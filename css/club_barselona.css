@@ -1,0 +1,113 @@
+body{
+	background-color:	#8FBC8F;
+font-family: 'Lato', Calibri, Arial, sans-serif;
+	 margin:0 auto; 
+}
+
+#container {
+	position:relative;
+    width: 80%; 
+	height:auto;
+    margin: 0 auto; 
+    background: #f0f0f0; 
+   }
+   #header {
+	   position:relative;
+	height:180px;
+    background: #8fa09b; 
+    font-size: 24pt; 
+    font-weight: bold; 
+    color: #edeed5; 
+    padding: 5px;
+   }
+   #header h1{
+	   margin:0 auto;
+	   font-size:60px;
+	   text-align:center;
+	   padding:20px 0 0 0;
+   }
+   #content {
+	   height:auto;
+   text-align:center;
+
+    padding-right:100px;
+    background: #fff; 
+   }
+   #content p {
+	   margin:10px auto;
+	font-size:20px;
+   text-align:center;
+	width:66%;
+	padding-left:90px;
+	padding-top:20px;
+   }
+     #footer {
+    background: #8fa09b; 
+    color: #fff;
+	height:60px;
+	line-height:70px;
+	font-size:26px;
+	text-align:center;
+    padding: 10px; 
+   }
+   /*основы*/
+   .img_boyes{
+	   position:relative;
+	   margin:10px auto;
+	 text-align:center;
+	padding-left:9%;
+   }
+   h2{
+	   position:relative;
+	text-align:center;
+	text-transform:uppercase;
+	   color:#FF4500;
+	   font-size:30px;
+	   margin: 28px auto ;
+	   width:560px;
+	 padding-left:120px;
+   }
+   .img_boyes1{
+	   position:relative;
+	   margin:35px auto;
+	 text-align:center;
+	padding-left:9%;
+	
+   }
+   .text_cool{
+	    position:relative;
+	   font-size:25px;
+		margin:20px auto;
+	    padding-left:130px;
+		width:730px;
+		color:#808080;
+   }
+    .strelka{
+		position:relative;
+	margin:20px auto;
+	text-align:center;
+}
+
+/*Меню*/
+div.topmenu{
+position: relative; 
+font-size:23px;
+margin: 30px auto;
+	height:80px;
+	text-align:center;
+	max-width: 580px; 
+  
+}
+div.topmenu a{
+	text-decoration:none;
+	margin: 0 0 0 10px;
+    color:#6717E8;
+}
+div.topmenu a:hover{
+color:#fff;		
+}   
+
+.clear{
+	clear:both;
+}
+

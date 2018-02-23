@@ -1,0 +1,294 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body{
+	background-size:100%;
+	background-image:url(../images/sfsfsfs.jpg);
+	color:black;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+
+font:arial, tahoma, sans-serif;
+min-width:600px; max-width:4000px; height:100px
+}
+.nav{
+	padding:0;
+	position:absolute;
+}
+/*Начало*/
+#liga{
+	font-size:40px;
+font-family:arial;
+color:white;
+border: 1px solid #D52ADB;
+	padding: 5px 15px;
+	border-radius:3px;
+	box-shadow: 2px 2 px 7px -1px #777;
+	text-shadow:0px 0 px 3px #777;
+	font-weight:bold;
+	background:#C2104E;
+	max-width:100%;
+    padding-top: 0.1in;
+}
+#liga:hover{
+	border: 5px solid black;
+	background-color:#2DD690;
+	border-top: 0.1in;
+	text-align:center;
+	transition: all 3s;
+}
+#drou{
+	color:white;
+	font-size: 28px;
+	text-align:left;
+	margin:20 px 0 10px;
+	padding:0;
+	font-weight:normal;
+	text-indent:10px;
+	
+	
+}
+#drou:hover{
+	color:#D6572D;
+}
+/*Видео*/
+video{
+	position:relative;
+	margin:0 auto;
+	margin-left:100px;
+}
+/*Меню*/
+div.topmenu{
+	
+	margin:40px auto;
+	height:80px;
+	font-size:20px;	
+	text-align:center;
+	width: 420px; 
+    background: #5684BF;
+    border: solid 1px #4EC7C5; 
+	line-height:80px;
+}
+div.topmenu a{
+	margin: 0 0 0 10px;
+	color:#F57B11;
+}
+div.topmenu a:hover{
+color:#fff;	
+font-size:24px;	
+}
+/*Посты*/
+.post{
+	
+	position:relative;
+	border: solid 2px #DE560D;
+	margin:60px auto;
+	padding-left:33px;
+	background-color: #DEBEAD;
+	box-shadow:3px 3px 8px #C96F0E;
+	width:100%;
+}
+.post:hover{
+	margin:20px auto;
+	opacity:1;
+	transition: all 3s;
+	width:100%;
+}
+.post_header h2{
+	margin:30px auto;
+	color:black;
+	text-transform:capitalize;
+	font-size:35px;
+	padding-left: 15px;
+	font-family:arial,sans-serif;
+
+	
+}
+.post_header h2 a{
+	text-decoration: none;
+	color:black;
+}
+.post_header h2 a:hover{
+	color:#fff;
+	
+}
+.post_header img{
+	width: 35%;
+	height:auto;
+   margin-left: 30px;
+}
+div.img{
+	width: 35%;
+	height:auto;
+   margin-left: 30px;
+}
+
+.post-content{
+	padding: 15px;
+}
+.post-meta{
+	overflow: hidden;
+}
+.post-meta a{
+	margin:10px auto;
+	text-transform:uppercase;
+	font-weight: bold;
+	
+}
+.post-meta{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.full-post{
+	float:left;
+	color:black;
+	text-transform:uppercase;
+	text-decoration: none;
+	font-size:19px;
+}
+.full-post:hover{
+	color:red;
+}
+.post-coment{
+	float:right;
+}
+.postik{
+	color:black;
+	font-family:arial,sans-serif;
+}
+.postik:hover{
+	color:red;
+}
+/*Группы*/
+div.header{
+	background:radial-gradient(#fff,#D98C21,);
+	 background-image: linear-gradient(to top, rgba(30,87,153,0), rgba(30,87,153,0.8), rgba(30,87,153,1),
+                      rgba(30,87,153,1), rgba(41,137,216,1), rgba(30,87,153,1), rgba(30,87,153,1),
+                      rgba(30,87,153,0.8),rgba(30,87,153,0));
+    color: #fff; 
+	padding:5%;
+	background-size: 500px 500px;
+	margin:0 auto;
+    width:100%;
+	text-align:center;
+	font-size:24px;
+	font-family:arial,sans-serif;
+	
+}
+a{
+text-decoration:none;	
+	color:black;
+	width:100%;
+
+}
+a:hover{
+	color:white;
+}
+ul{
+	margin:2px auto;
+	padding-right:11%;
+	
+}
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height:1.5em;
+	margin-top:15px;
+    height:20px;
+	
+}
+div.mid{
+	width:100%;
+   margin:0 auto;
+   text-align:center;
+}  
+#liga_cemp{
+	color:gold;
+	font-family:arial,sans-serif;
+	
+} 
+#liga_cemp:hover{
+	color:white;
+}
+#liga_evro{
+	color:#E89015;
+	font-family:arial,sans-serif;
+}
+#liga_evro:hover{
+	color:white;
+}
+#cempion:hover{
+	color:red;
+	background-color:black;
+	padding:1ex;
+	box-shadow:0 0 7px 3px green;
+	transition: all 0.5s;
+}
+	
+/*Текст*/
+P{
+	margin:0 auto;
+	font-family:arial,sans-serif;
+	font-size:30px;
+	color:gold ;
+	
+}
+h1{
+	margin:10px auto;
+	font-size:50px;
+font-family:arial;
+text-indent:20px;
+border: 3px solid #17916D;	
+border-radius:100px;
+background-color:#E06112;
+color:white;
+
+padding:10px;
+font-weight:600;
+box-shadow: 3px 3px 10px #425750;
+}
+h2{
+	font-size:30px;
+font-family:arial;
+text-indent:20px;
+color:black;
+}
+p{
+	font-family:arial,sans-serif;
+	font-size:30px;
+text-indent:10px;
+color:white;
+}
+
+a{
+	color:black ;
+}
+/*Подвал*/
+div.clear{
+	clear:both;
+}

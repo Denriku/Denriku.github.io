@@ -1,0 +1,170 @@
+body{
+	background-image:url(../images/rtiuop.jpg);
+	color:black;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:top center;
+margin:0;
+background-size:100%;
+padding:0;
+font:arial, tahoma, sans-serif;
+
+}
+
+/*Меню*/
+div.topmenu{
+margin:0 auto;
+font-size:20px;	
+   margin-top:30px;
+	height:80px;
+	text-align:center;
+	width: 540px; 
+    background: #3B6965;
+		box-shadow: 0 0 2px 2px #ff4f00;
+    border: solid 1px black; 
+	line-height:80px;
+}
+div.topmenu a{
+	text-decoration:none;
+	margin: 0 0 0 10px;
+	color:#E36E1B;
+}
+div.topmenu a:hover{
+color:#fff;	
+font-size:25px;	
+}
+
+
+/*Текст*/
+#italy{
+	margin-top:-5px;
+	text-indent:60px;
+	font-style:italic;
+	font-size:18px;
+}
+
+P{
+	text-indent:20px;
+}
+.brd a {
+	text-decoration:none;
+	margin: 0 0 0 10px;
+	color: black;
+}
+.brd a:hover{
+	color:#fff;	
+}
+
+/*Рамка*/
+.brd{
+	text-indent:50px;
+	margin-top:20px;
+	text-align:center;
+	font-family:arial,sans-serif;
+	font-size:35px;
+	color:white ;   
+	border-style:solid;
+	border-color:none;
+	background: #ebe9f9; /* Old browsers */
+background: -moz-linear-gradient(top, #ebe9f9 0%, #d8d0ef 50%, #cec7ec 51%, #c1bfea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea',GradientType=0 ); /* IE6-9 */
+	width:100%;
+	 animation-name: brd;
+    -webkit-animation-name: brd;  
+ 
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+ 
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+.brd:hover{
+
+background: #febbbb; /* Old browsers */
+background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+}
+
+@keyframes brd {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.7;       
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1; 
+    }   
+    100% {
+        transform: scale(0.9);
+        opacity: 0.7;   
+    }           
+}
+ 
+@-webkit-keyframes brd {
+    0% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;       
+    }
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1; 
+    }   
+    100% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;   
+    }           
+}
+/*Картинки*/
+.img{
+	margin-left:20px;
+   margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Подвал*/
+div.clear{
+	clear:both;
+	margin-bottom:100px;
+}
+/*Адаптивный дизайн*/
+@media(max-width:1000px){
+    div.mid{width: 95%; margin: 0 auto}
+	div.afisha h3{font-size:22px;}
+	div.block{width:48%;}
+	div.anons img,div.rek img{width:100%;}
+	div.anons h3{font-size:18px;}
+	div.anonsi img{width:100%;}
+	div.anonsi h3{font-size:18px;}
+	
+}
+@media(max-width: 640px){
+	div.header{text-align:center; background-position:center -130px;}
+div.block,div.block:nth-of-type(even),div.afisha img,div.topmenu{float:none;}
+div.block{width:auto; margin-bottom:40px;}
+div.block:nth-last-of-type(2){width:auto; margin-bottom:0px;}
+div.footer span{margin:10px 0; display:block;}
+}
+@media (max-width: 930px) { 
+  .content-wrapper {padding: 0;} 
+}
+@media (max-width: 930px) and (min-width: 470px) {  
+  aside {position: static; width: 100%; background: #ccc;} 
+}
+@media (max-width: 469px) { 
+  body {font: .9em/1em "Helvetica Neue",Arial,Helvetica,sans-serif;} 
+  aside {display: none;} 
+}

@@ -1,0 +1,246 @@
+body{
+	background-color:#ccc;
+font: 13px/18px Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.wrapper{
+	position:absolute;
+	margin:0  0 0 2% ;
+	max-width:90%;
+	top:170%;
+	padding:0;
+	height: 100%;
+}
+.midii{
+	position: relative;
+	background-color:#ccc;
+	padding-left:15px;
+	margin-right:-22px;
+	border: 1px solid black;
+    width:17%;
+	margin: 10px 20px 0px;
+}
+/*Рамка*/
+.brd{
+	text-indent:231px;
+	margin-top:20px;
+	text-align:center;
+	font-family:arial,sans-serif;
+	font-size:35px;
+	color:white ;   
+	border-style:solid;
+	border-color:green;
+	background-color:green;
+	width:100%;
+}
+/*Меню*/
+div.topmenu{
+float:right;
+   margin-right:20px;
+   margin-top:-120px;
+	height:80px;
+	text-align:center;
+	width: 340px; 
+    background: #3B6965;
+		box-shadow: 0 0 2px 2px #ff4f00;
+    border: solid 1px black; 
+	line-height:80px;
+}
+div.topmenu a{
+	text-decoration:none;
+	margin: 0 0 0 10px;
+	color:#E36E1B;
+}
+div.topmenu a:hover{
+color:#fff;		
+}
+/*Текст*/
+#italy{
+	margin-top:-5px;
+	text-indent:66px;
+	font-style:italic;
+	font-size:18px;
+}
+ins{
+	color:#CF5961;
+}
+.bac{
+	padding-left:-30px;
+	text-indent:60px;
+}
+h2{
+	text-indent:20%;
+}
+#italy_1{
+	margin-top:-5px;
+	text-indent:90px;
+	font-style:italic;
+	font-size:18px;
+}
+#ital{
+	margin-top:-5px;
+	text-indent:10px;
+	font-style:italic;
+	font-size:18px;
+}
+a:hover{
+	color:red;
+	transition: all 0.5s;
+}
+a{
+	color:black;
+text-decoration:none;	
+	
+}
+
+P{
+	font-family:arial,sans-serif;
+	 font-size:16px;
+	
+}
+.pp{
+	text-indent:10px;
+	text-align:center;
+	font-family:arial,sans-serif;
+	 font-size:16px;
+}
+.col{
+	font-family:arial,sans-serif;
+   font-size:19px;
+	color:red;
+	text-indent:-5px;
+}
+.col_1{
+	font-family:arial,sans-serif;
+   font-size:18px;
+	color:black;
+	text-indent:5px;
+}
+.text_1{
+	font-size:16px;
+	text-align:center;
+	
+	padding-left:80px;
+	margin-left:12%;
+	margin-top:-71%;
+}
+.text_2{
+	font-size:16px;
+	padding-left:132px;
+	margin-left:12%;
+	width:82.6%;
+	text-indent:5px;
+}
+.text_3{
+	margin-top:5%;
+	font-size:16px;
+	padding-left:110px;
+	margin-left:12%;
+	width:82.6%;
+	text-indent:5px;
+}
+.text_4{
+	width:81.5%;
+	text-indent:10px;
+	font-size:16px;
+	text-align:left;
+	padding-left:132px;
+	margin-left:12%;
+	margin-top:-82%;
+}
+/*Рамка*/
+.brd{
+	text-indent:231px;
+	margin-top:20px;
+	text-align:center;
+	font-family:arial,sans-serif;
+	font-size:35px;
+	color:white ;   
+	border-style:solid;
+	border-color:green;
+	background-color:green;
+	width:100%;
+}
+.brd_1{
+	background-color:white;
+	
+	margin-left:20%;
+	border: 1px solid black;
+    width:19%;
+}
+.br{
+	border-top-width:50px;
+	margin-top:-5%;
+	margin-bottom:-80px;
+	text-align:center;
+	border: 1px solid none;
+    width:17%;
+}
+.feleks{
+	margin-left:20%;
+}
+/*Картинки*/
+.img{
+	margin-left:3px;
+   margin-top:20px;
+}
+.img_1{
+float:right;
+margin-right:10%;
+margin-top:-88%;
+}
+.img_2{
+   margin-top:-11%;
+}
+.strelka{
+	margin-left:5%;
+}
+
+
+
+
+
+
+
+
+
+/*Подвал*/
+div.clear{
+	clear:both;
+	margin-bottom:110px;
+}
+/*Адаптивный дизайн*/
+@media(max-width:992px){
+}	
+@media(max-width:768px){
+}	
+@media(max-width:480px){
+}	
+@media(max-width:1000px){
+    div.mid{width: 95%; margin: 0 auto}
+	div.afisha h3{font-size:22px;}
+	div.block{width:48%;}
+	div.anons img,div.rek img{width:100%;}
+	div.anons h3{font-size:18px;}
+	div.anonsi img{width:100%;}
+	div.anonsi h3{font-size:18px;}
+	
+}
+@media(max-width: 640px){
+	div.header{text-align:center; background-position:center -130px;}
+div.block,div.block:nth-of-type(even),div.afisha img,div.topmenu{float:none;}
+div.block{width:auto; margin-bottom:40px;}
+div.block:nth-last-of-type(2){width:auto; margin-bottom:0px;}
+div.footer span{margin:10px 0; display:block;}
+}
+@media (max-width: 930px) { 
+  .content-wrapper {padding: 0;} 
+}
+@media (max-width: 930px) and (min-width: 470px) {  
+  aside {position: static; width: 100%; background: #ccc;} 
+}
+@media (max-width: 469px) { 
+  body {font: .9em/1em "Helvetica Neue",Arial,Helvetica,sans-serif;} 
+  aside {display: none;} 
+}

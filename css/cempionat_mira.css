@@ -1,0 +1,180 @@
+body{
+	background-color:#ccc;
+}
+/*Шапка*/
+div.header{
+    color: #fff; padding: 10px;
+	
+}
+div.mid{
+	width:1000px;
+   margin:0 auto;	
+}
+div.topmenu{
+position: relative; 
+font-size:23px;
+margin: 30px auto;
+	height:80px;
+	text-align:center;
+	max-width: 550px; 
+  
+}
+div.topmenu a{
+	text-decoration:none;
+	margin: 0 0 0 10px;
+    color:#6717E8;
+}
+div.topmenu a:hover{
+color:#fff;		
+}   
+/*Текст*/
+h1{
+	font-size:40px;
+	text-indent: 13px;
+	text-align:center;
+	color:#F78B0F;
+	background: rgba(239,197,202,1);
+background: -moz-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 19%, rgba(186,39,55,1) 83%, rgba(241,142,153,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(239,197,202,1)), color-stop(19%, rgba(210,75,90,1)), color-stop(83%, rgba(186,39,55,1)), color-stop(100%, rgba(241,142,153,1)));
+background: -webkit-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 19%, rgba(186,39,55,1) 83%, rgba(241,142,153,1) 100%);
+background: -o-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 19%, rgba(186,39,55,1) 83%, rgba(241,142,153,1) 100%);
+background: -ms-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 19%, rgba(186,39,55,1) 83%, rgba(241,142,153,1) 100%);
+background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 19%, rgba(186,39,55,1) 83%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+	 border-radius: 1px;
+	box-shadow:#F70FC9;
+      border: 4px groove #ff4f00;
+      padding: 10px 20px 10px 20px;
+      margin: 20px auto;
+      width: 600px;
+	  background-color:white;
+}
+h2{
+	font-family:arial,sans-serif;
+	font-size:30px;
+	font-weight:100;
+	color:black ;
+	margin-top:50px;
+	text-indent:20px;
+}
+a{
+text-decoration:none;	
+	color:black;
+	width:100%;
+    text-indent:20px;
+}
+a:hover{
+	color:white;
+}
+.brd{
+	font-family:arial,sans-serif;
+	font-size:22px;
+	color:white ;
+   
+	border-width:6px;
+	border-style:solid;
+	border-color:green;
+	background-color:green;
+	text-indent:20px;
+}
+/*Под матчи*/
+.match{
+	color:green;
+}
+.match_1{
+	color:green;
+	text-indent:2px;
+}
+.match_2{
+	color:green;
+	text-indent:-15px;
+}
+.match_3{
+	color:green;
+	text-indent:-10px;
+}
+/*Матчи*/
+.mats_1{
+	font-size:19px;
+	text-indent:-24px;
+	margin-left:30%;
+	margin-bottom:-6px;
+	text-align:center;
+	margin-top:-182px;
+	padding:0;
+	background-color:#ccc;
+	margin:20 px 0 10px;
+	 width:50%,50%; 
+    border: solid 1px #ccc; 
+}
+
+/*Группы*/
+.grupa_1{
+	margin-bottom:-160px;
+	font-size:19px;
+	font-family:arial,sans-serif;
+	color:black;
+	text-indent:6px;
+}
+.grupa_2{
+	font-size:19px;
+	font-family:arial,sans-serif;
+	color:black;
+	text-indent:6px;
+}
+.grupa_3{
+	font-size:19px;
+	font-family:arial,sans-serif;
+	color:black;
+	text-indent:6px;
+}
+.grupa_4{
+	font-size:19px;
+	font-family:arial,sans-serif;
+	color:black;
+	text-indent:6px;
+}
+.grupa_5{
+	font-size:19px;
+	font-family:arial,sans-serif;
+	color:black;
+	text-indent:6px;
+}
+
+/*Разное*/
+.strelka{
+	margin-left:45%;
+}
+/*Подвал*/
+div.clear{
+	clear:both;
+	margin-bottom:20px;
+}
+/*Адаптивный дизайн*/
+@media(max-width:1000px){
+    div.mid{width: 95%; margin: 0 auto}
+	div.afisha h3{font-size:22px;}
+	div.block{width:48%;}
+	div.anons img,div.rek img{width:100%;}
+	div.anons h3{font-size:18px;}
+	div.anonsi img{width:100%;}
+	div.anonsi h3{font-size:18px;}
+	
+}
+@media(max-width: 640px){
+	div.header{text-align:center; background-position:center -130px;}
+div.block,div.block:nth-of-type(even),div.afisha img,div.topmenu{float:none;}
+div.block{width:auto; margin-bottom:40px;}
+div.block:nth-last-of-type(2){width:auto; margin-bottom:0px;}
+div.footer span{margin:10px 0; display:block;}
+}
+@media (max-width: 930px) { 
+  .content-wrapper {padding: 0;} 
+}
+@media (max-width: 930px) and (min-width: 470px) {  
+  aside {position: static; width: 100%; background: #ccc;} 
+}
+@media (max-width: 469px) { 
+  body {font: .9em/1em "Helvetica Neue",Arial,Helvetica,sans-serif;} 
+  aside {display: none;} 
+}
