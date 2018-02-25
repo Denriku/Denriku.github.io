@@ -1,15 +1,23 @@
 body{
 	background-image:url(../images/wfwefw.jpg);
 	color:black;
+	width:80%;
 	background-repeat:no-repeat;
 	background-size:100%;
 	background-attachment:fixed;
 	background-position:top center;
-margin:0;
+margin:0 auto;
 padding:0;
 font:arial, tahoma, sans-serif;
 position:relative;
 }
+#container {
+	position:relative;
+    width: 80%; 
+	height:auto;
+    margin: 0 auto; 
+    background: #f0f0f0; 
+   }
 /*Меню*/
 div.header{
 	height:100%;
@@ -43,8 +51,9 @@ div.topmenu a:hover{
 color:#fff;		
 }
 /*Группы*/
+
 .groopa_d{
-	margin:10px auto;
+	
 	 width: 500px; 
 	
     background: #9205F0;
@@ -53,7 +62,7 @@ color:#fff;
     float: none;
 }
 .groopa_c{
-		margin:10px auto;
+		
 	 width: 500px; 
     background: #3B6965;
 		box-shadow: 0 0 2px 2px #ff4f00;
@@ -61,7 +70,7 @@ color:#fff;
     float: none;
 }
 .groopa_b{
-	margin:10px auto;
+	
 	 width: 500px; 
     background: #0C5BC9;
 		box-shadow: 0 0 2px 2px #6693D4;
@@ -71,7 +80,7 @@ color:#fff;
 .groopa_a{
 	
 	 width: 500px; 
-	margin:10px auto;
+	
     background: #7C28BD;
 		box-shadow: 0 0 2px 2px #6693D4;
     border: solid 1px black; 
@@ -82,7 +91,7 @@ color:#fff;
 	
 	text-align:center;
 	
-    margin:10px auto;
+  margin-left:50%;
 	padding:0;
 	opacity:0.6;
 	 width: 600px; 
@@ -94,7 +103,7 @@ color:#fff;
 #mats_b{
 	
 	text-align:center;
-	margin:10px auto;
+	  margin-left:50%;
 	padding:0;
 	opacity:0.6;
 	 width: 600px; 
@@ -104,9 +113,9 @@ color:#fff;
   
 }
 #mats_c{
-	margin:10px auto;
-	text-align:center;
 	
+	text-align:center;
+	  margin-left:50%;
 	padding:0;
 	opacity:0.6;
 	 width: 600px; 
@@ -118,7 +127,8 @@ color:#fff;
 #mats_d{
 	
 	text-align:center;
-	margin:10px auto;
+  margin-left:50%;
+    
 	padding:0;
 	opacity:0.6;
 	 width: 600px; 
@@ -162,6 +172,7 @@ a:hover{
 	
 }
 #drou:hover{
+	
 	color:white;
 	font-size:28px;
 }
@@ -236,6 +247,9 @@ P{
 	opacity:1;
 	text-align: center;
 	transition: all 2s;
+	-webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
 #mats_b:hover{
 	background-color:#3B2AD1;
@@ -243,6 +257,9 @@ P{
 	opacity:1;
 	text-align: center;
 	transition: all 2s;
+	-webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
 #mats_c:hover{
 	background-color:#3B2AD1;
@@ -250,8 +267,14 @@ P{
 	opacity:1;
 	text-align: center;
 	transition: all 2s;
+	-webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
 #mats_d:hover{
+	-webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 	background-color:#3B2AD1;
 	color:white;
 	opacity:1;

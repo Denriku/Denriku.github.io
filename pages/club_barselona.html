@@ -5,7 +5,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="../images/FC-Barcelona-icon.png">
 <link href="../css/reset.css" rel="stylesheet" type="text/css"/>
 <link href="../css/club_barselona.css" rel="stylesheet" type="text/css"/>
-
+<link rel="stylesheet" rel="stylesheet" href="../css/font-awesome.css" >
 <meta charset="utf-8">
 <meta http-equiv="Content-language" content="ru">  
 <meta name="viewport" content="width=device-width,inital-scale=1.0"/>
@@ -14,23 +14,30 @@
 <meta name="description" content="Denis"> 
 <meta name="copyright" content="Denis"> 
 <meta name="robots" content="index:no-follow">
-</head>
-
-  
-  
+</head>  
 <body>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
+ <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<div id="container">
 	 <div id="header">
      <h1>Барселона</h1>
-	  <div class="topmenu">
-	   <aside>
-	        <a href="../index.html">Главная</a>
-		    <a href="../pages/mtchi.html">Группы</a>
-		     <a href="../pages/info.html">Информация</a>
-			 <a href="../pages/kontakt.html">Контакты</a>
-			   <a href="../pages/gallery.html">Галерея</a>
-		</aside>
-	   </div>	  
+	  <div class="nav">
+    <a href="#" class="nav__trigger">
+        <div class="bars"></div>
+    </a>
+    
+    <div class="nav__content">
+        <nav class="nav__list">
+            <ul>
+                <li class="nav__item"><a href="../index.html">Главная</a></li>
+                <li class="nav__item"><a href="../pages/mtchi.html">Гпуппы</a></li>
+                <li class="nav__item"><a href="../pages/info.html">Информация</a></li>
+                <li class="nav__item"><a href="../pages/kontakt.html">Контакты</a></li>
+				<li class="nav__item"><a href="../pages/gallery.html">Галерея</a></li>
+            </ul>
+        </nav>
+    </div>    
+</div>
 	</div>
 	<div id="content">
 	<div class="img_boyes">
@@ -118,5 +125,7 @@
 
 
 </body>
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js'></script>
+<script src="../js/effects_foto.js"></script>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 </html>
